@@ -1,0 +1,66 @@
+.header {
+  background-color: #000000;
+  position: fixed;
+  width:  100%;
+  z-index: 100;
+}
+
+
+.logo, .nav {
+  float: left;
+}
+
+.logo {
+  width: 8%;
+}
+
+.contacts {
+  float: right;
+  padding-top: rem(25px);
+  width: 12%;
+}
+
+.contacts__phone,.contacts__address   {
+  color: $green;
+  display: block;
+}
+
+.contacts__address  {
+  color: white;
+  font-size: rem(12px);
+}
+
+.logo, .nav {
+  padding: rem(33px) 0;
+}
+
+.logo__text {
+  color: white;
+  font-size:rem(24px);
+}
+
+.nav  {
+  padding: rem(37px) 0 0 rem(120px);
+  width: 80%;
+  @include laptop {
+
+  }
+}
+
+.nav__list  {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav__item  {
+  padding: 0 rem(13px);
+}
+
+.nav__item-link {
+  color: white;
+  transition: 0.3s;
+
+  &:hover {
+    color: $green;
+  }
+}

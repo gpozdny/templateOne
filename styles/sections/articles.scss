@@ -1,0 +1,67 @@
+.articles {
+  padding: rem(90px) 0 rem(115px) 0;
+}
+
+.offers, .news  {
+  float: left;
+  max-width: rem(570px);
+  @extend %clearfix;
+  margin-right: rem(40px);
+  width: 50%;
+}
+
+.offers__title {
+  font-size: rem(30px);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: rem(30px);
+}
+
+.offers__pic  {
+  background-image: url("../assets/img/offers.jpg");
+  width: rem(180px);
+  height: rem(135px);
+  background-size: cover;
+}
+
+.offers__btn  {
+  border-radius: 3px;
+  background-color: rgb(170, 206, 61);
+  box-shadow: 0px 4px 0px 0px rgb(110, 137, 30);
+  position: absolute;
+  padding: rem(15px) rem(52px);
+  transition: 0.3s;
+
+  &:hover {
+    background-color: rgb(154, 186, 55);
+  }
+}
+
+.offers__btn-text {
+  color: #000;
+}
+
+.offer__desc  {
+  max-width:  rem(370px);
+  margin-left: rem(20px);
+}
+
+.offer__desc, .offers__pic  {
+  float: left;
+}
+
+.offers__wrap {
+  @extend %clearfix;
+  margin-bottom: rem(30px);
+}
+
+.offer__date-text {
+  color: #8591b3;
+}
+
+.offer__desc-title {
+  font-size: rem(19px);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  margin: rem(10px) 0 rem(5px);
+}

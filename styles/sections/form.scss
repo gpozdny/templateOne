@@ -1,0 +1,73 @@
+.feedback {
+  padding: rem(36px) 0 0 0;
+}
+
+.form {
+  max-width: rem(900px);
+  margin: 0 auto;
+}
+
+.form__title  {
+  font-size: rem(30px);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: rem(30px);
+}
+
+.form__input  {
+  display: block;
+  padding: rem(10px) rem(247px) rem(10px) rem(20px);
+  font-size: rem(14px);
+  margin-bottom:  rem(15px);
+}
+
+.form__btn  {
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(170, 206, 61);
+  box-shadow: 0px 4px 0px 0px rgb(110, 137, 30);
+  padding: rem(15px) rem(399px);
+  color: #000;
+  transition: 0.3s;
+
+
+  &:hover {
+    background-color: rgb(154, 186, 55);
+  }
+}
+
+.form__btn-text {
+  font-weight: bold;
+}
+
+.form__wrapper, .form__text {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.form__wrapper  {
+  margin-right: rem(10px);
+}
+
+.form__text {
+  font-size: rem(14px);
+}
+
+.scrollup{
+  width:rem(40px);
+  height:rem(40px);
+  opacity:0.3;
+  position:fixed;
+  bottom:rem(50px);
+  right:rem(100px);
+  display:none;
+  text-indent:-9999px;
+  background: url('../assets/img/icon_top.png') no-repeat;
+}
+
+.hidden{
+  opacity:0;
+}
+.visible{
+  opacity:1;
+}

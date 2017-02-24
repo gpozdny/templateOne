@@ -1,0 +1,51 @@
+.footer {
+  background-color: #000000;
+}
+
+.container--footer  {
+ padding-top: rem(87px);
+}
+
+
+.logo__text--footer {
+  color: $gray;
+}
+
+.footer__logo, .footer__lists, .footer__contacts  {
+  float: left;
+}
+
+.footer__list-left, .footer__list-right {
+  display: inline-block;
+}
+
+.footer__list-link  {
+  font-size: rem(14px);
+  color: $gray;
+}
+
+.lists__title  {
+  color: $gray;
+  font-size: rem(18px);
+}
+
+.footer__contacts {
+  padding: 0 rem(152px);
+}
+
+.footer__list-item  {
+  padding: rem(5px) 0;
+}
+
+.footer__list-link  {
+  transition: 0.3s;
+
+  &:hover {
+    color: $green;
+  }
+}
+
+.footer__list-left {
+  margin-right: rem(140px);
+}
+

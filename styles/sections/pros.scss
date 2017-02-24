@@ -1,0 +1,37 @@
+.conainer--pros {
+  min-width: 1400px;
+}
+
+.pros {
+  background-color: #aace3d;
+  padding: rem(100px) 0;
+}
+
+.pros__list-item  {
+  display: inline-block;
+  text-align: center;
+  margin-right: rem(85px);
+  &:last-child {
+    margin: 0;
+  }
+}
+
+.pros__icon {
+  background-image: url("../assets/img/checkbox.png");
+  width: rem(53px);
+  height: rem(50px);
+  background-size: contain;
+  margin: 0 auto;
+  margin-bottom: rem(25px);
+
+}
+
+.pros__title  {
+  font-size: rem(30px);
+  font-weight: bold;
+  margin-bottom: rem(10px);
+}
+
+.pros__list-desc-text {
+  font-size: rem(18px);
+}

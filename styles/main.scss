@@ -1,0 +1,24 @@
+// vars
+
+$green: #aace3d;
+$gray: rgba(255, 255, 255, 0.51);
+
+// imports
+
+@import "_misc/normalize";
+@import "_misc/mixins";
+@import "_misc/adjustment";
+@import "plugins/slick";
+@import "animate.css";
+
+// sections
+
+@import "sections/header";
+@import "sections/footer";
+@import "sections/top";
+@import "sections/articles";
+@import "sections/desc";
+@import "sections/pros";
+@import "sections/form";
+
+
